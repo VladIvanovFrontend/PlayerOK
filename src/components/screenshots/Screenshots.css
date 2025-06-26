@@ -1,0 +1,49 @@
+.screenshots__container {
+    margin-top: 19%;
+    padding: 20px;
+    text-align: center;
+}
+
+.screenshots__list {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.screenshot__image {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.screenshot__image:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+    .screenshots__container {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .screenshot__image {
+        width: 150px;
+        height: 90px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .screenshots__container {
+        margin-top: 50%;
+    }
+
+    .screenshot__image {
+        width: 140px;
+        height: 90px;
+    }
+}

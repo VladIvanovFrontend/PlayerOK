@@ -1,0 +1,85 @@
+.div__wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    transition: background-image 0.5s ease-in-out;
+    overflow-x: hidden;
+}
+
+.main__container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel__dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 20;
+}
+
+.carousel__dot {
+    width: 22px;
+    height: 8px;
+    background-color: rgba(110, 148, 221, 0.3);
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__dot::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #0059ff;
+    animation: none;
+}
+
+.carousel__dot.active::before {
+    animation: fillAnimation 10s linear forwards;
+}
+
+@keyframes fillAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel__dot {
+        width: 15px;
+        height: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel__dot {
+        width: 18px;
+        height: 6px;
+    }
+}
