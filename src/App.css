@@ -40,22 +40,24 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
+    width: 100%;
     height: 100%;
     background-color: #0059ff;
+    transform: scaleX(0);
+    transform-origin: left;
     animation: none;
 }
 
 .carousel__dot.active::before {
-    animation: fillAnimation 10s linear forwards;
+    animation: fillAnimation 10s ease-in-out forwards;
 }
 
 @keyframes fillAnimation {
     from {
-        width: 0;
+        transform: scaleX(0);
     }
     to {
-        width: 100%;
+        transform: scaleX(1);
     }
 }
 
