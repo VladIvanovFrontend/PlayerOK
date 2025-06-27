@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/VladIvanovFrontend/PlayerOK/static/css/main.07226315.css",
+    "main.js": "/VladIvanovFrontend/PlayerOK/static/js/main.93d5b56d.js",
+    "static/js/453.c0a3579c.chunk.js": "/VladIvanovFrontend/PlayerOK/static/js/453.c0a3579c.chunk.js",
+    "static/media/deadSpaceLogo.jpg": "/VladIvanovFrontend/PlayerOK/static/media/deadSpaceLogo.75ec1fd34bf314e33f4e.jpg",
+    "static/media/SaintsRowFon.jpeg": "/VladIvanovFrontend/PlayerOK/static/media/SaintsRowFon.e6289df5fe39edff896e.jpeg",
+    "static/media/TombRaiderFon.jpeg": "/VladIvanovFrontend/PlayerOK/static/media/TombRaiderFon.78d1b87a35c106f7bae8.jpeg",
+    "static/media/crysisLogo.jpg": "/VladIvanovFrontend/PlayerOK/static/media/crysisLogo.6a6b27c5c9992a16686e.jpg",
+    "static/media/bioshockFon.jpg": "/VladIvanovFrontend/PlayerOK/static/media/bioshockFon.de93e1caf9304a3a3300.jpg",
+    "static/media/AssassinCreedFon.jpg": "/VladIvanovFrontend/PlayerOK/static/media/AssassinCreedFon.1d2bd0cf2becf28eea2d.jpg",
+    "static/media/gta5fon.jpeg": "/VladIvanovFrontend/PlayerOK/static/media/gta5fon.32af8b3ecf65693562f5.jpeg",
+    "static/media/MetroFon.jpg": "/VladIvanovFrontend/PlayerOK/static/media/MetroFon.eb8e0b6b4b2b79ebd759.jpg",
+    "static/media/TLoULogo.png": "/VladIvanovFrontend/PlayerOK/static/media/TLoULogo.7f61645937fd71a16718.png",
+    "static/media/BioShockLogo.jpg": "/VladIvanovFrontend/PlayerOK/static/media/BioShockLogo.b4adbf07ba6c924817a4.jpg",
+    "static/media/TLoU1Fon.jpg": "/VladIvanovFrontend/PlayerOK/static/media/TLoU1Fon.4b6d1b30028ae1d98476.jpg",
+    "static/media/gta5Logo.png": "/VladIvanovFrontend/PlayerOK/static/media/gta5Logo.226f6120740276adc192.png",
+    "static/media/bf4Logo.png": "/VladIvanovFrontend/PlayerOK/static/media/bf4Logo.49fef301d29d33682855.png",
+    "static/media/BattlefieldFon.jpg": "/VladIvanovFrontend/PlayerOK/static/media/BattlefieldFon.e6565b293500aa0449ac.jpg",
+    "static/media/tombRaiderLogo.jpeg": "/VladIvanovFrontend/PlayerOK/static/media/tombRaiderLogo.18d508d6c11242f57603.jpeg",
+    "static/media/DeadSpaceFon.jpg": "/VladIvanovFrontend/PlayerOK/static/media/DeadSpaceFon.1dd7990e1fd38a318815.jpg",
+    "static/media/assassinLogo.jpg": "/VladIvanovFrontend/PlayerOK/static/media/assassinLogo.3f1566e9a4551de1eef5.jpg",
+    "static/media/metroLogo.jpg": "/VladIvanovFrontend/PlayerOK/static/media/metroLogo.a7f3e999d65b0bcf28fe.jpg",
+    "index.html": "/VladIvanovFrontend/PlayerOK/index.html",
+    "static/media/logo.svg": "/VladIvanovFrontend/PlayerOK/static/media/logo.9a8ababf64c0e973dd13594e5d78b938.svg",
+    "main.07226315.css.map": "/VladIvanovFrontend/PlayerOK/static/css/main.07226315.css.map",
+    "main.93d5b56d.js.map": "/VladIvanovFrontend/PlayerOK/static/js/main.93d5b56d.js.map",
+    "453.c0a3579c.chunk.js.map": "/VladIvanovFrontend/PlayerOK/static/js/453.c0a3579c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07226315.css",
+    "static/js/main.93d5b56d.js"
+  ]
+}
